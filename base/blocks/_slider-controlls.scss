@@ -1,0 +1,18 @@
+.slider-controlls__count {
+    display: flex;
+    column-gap: calc(var(--index) * .5);
+    align-items: flex-end;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: calc(var(--index));
+    font-weight: 700;
+    pointer-events: all;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.slider-controlls__count-current, .swiper-pagination-current{
+    color: $white;
+    font-size: calc(var(--index) * 1.5);
+    font-weight: 700;
+}
